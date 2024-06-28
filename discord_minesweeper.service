@@ -1,0 +1,14 @@
+[Unit]
+Description=Discord Minesweeper Bot
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/apps/discord_minesweeper
+ExecStart=/bin/bash /home/ubuntu/apps/discord_minesweeper/bot.sh
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
