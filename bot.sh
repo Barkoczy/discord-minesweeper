@@ -4,7 +4,7 @@
 source ~/miniconda3/bin/activate discord_minesweeper
 
 # Definuj cestu k adresáru, kde sú uložené súbory
-dir=/home/ubuntu/apps/discord_minesweeper
+dir=/home/ubuntu/apps/discord-minesweeper
 
 # Spustenie Python skriptu app.py
 python3 "$dir/app.py"
